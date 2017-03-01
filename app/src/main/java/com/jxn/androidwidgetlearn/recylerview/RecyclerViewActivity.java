@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.jxn.androidwidgetlearn.R;
+import com.jxn.androidwidgetlearn.drawer.DrawerLayoutActivity;
 import com.jxn.androidwidgetlearn.layoutWeight.LayoutWeightActivity;
 import com.jxn.androidwidgetlearn.onActivityResult.ResultActivity;
 
@@ -76,6 +77,9 @@ public class RecyclerViewActivity extends AppCompatActivity implements RecyclerD
                 break;
             case 1:
                 startActivity(new Intent(this, LayoutWeightActivity.class));
+                break;
+            case 2:
+                startActivity(new Intent(this, DrawerLayoutActivity.class));
                 break;
         }
     }

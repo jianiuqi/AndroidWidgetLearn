@@ -19,6 +19,7 @@
         <activity android:name=".onActivityResult.ResultActivity"/>
         <activity android:name=".onActivityResult.ResultActivityB"/>
         <activity android:name=".layoutWeight.LayoutWeightActivity"/>
+        <activity android:name=".drawer.DrawerLayoutActivity"/>
     </application>
 
 </manifest>
